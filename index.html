@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>picture tag</title>
+</head>
+<body>
+  
+<picture>
+  <!-- picture tag is used for responsive image -->
+  <!-- different image on different device and screen -->
+
+  <!-- picture tag has source element
+  source element has two attributes
+1) media
+2)srcset -->
+<source media="(min-width: 950px)" srcset="/img/la.jpg">
+<source media="(min-width: 660px)" srcset="/img/mid1.jpg">
+<img src="/small1.jpg" alt="small">
+
+</picture>
+
+</body>
+</html>
